@@ -1,0 +1,16 @@
+@media screen and(max-width: 760px){
+    header{
+        flex-direction: column;
+        color: red;
+
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 35px;
+
+    }
+}
