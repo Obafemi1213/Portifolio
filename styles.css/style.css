@@ -6,8 +6,8 @@
 }
 
 body{
-    background: var(--cor--background);
-    color: var(--cor--texto);
+    background:#f1f1e8;
+    color:var(--cor--background);
     font-family: poppins;
     max-width: 1200px;
     margin: 0 auto;
@@ -36,7 +36,7 @@ li{
 }
 
 a{
-    color: #FFFFFF;
+    color: var(--cor--background);
     list-style-type: none;
 }
 a :hover{
@@ -56,6 +56,7 @@ a :hover{
     color: #FFFFFF;
 
 }
+
 
 
 
@@ -125,19 +126,21 @@ input{
 
 }
 
+.imagemB{
+   display: flex;
+   justify-items: left;
+   background-size: 100%;
+   
+}
 
 
 .fotoe{
-    margin: auto;
-    width: 250px;
+    background-size: 100%;
+    width: 900px;
+    height: 400px;
     justify-content: space-around;
     padding-left: 250px;
     border-radius: 25px;
 
 }
 
-footer{
-    text-align: center;
-    background-color:#110505;
-
-}
