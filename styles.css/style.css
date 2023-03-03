@@ -17,7 +17,11 @@ main{
     height: 100vh;
     
 }
-body
+body{
+    background: url('../img/fundo.jpg') no-repeat top center;
+    background-size:cover ;
+    background-attachment:fixed ;
+}
 
 section#telefone{
     position: absolute;
